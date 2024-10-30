@@ -1,0 +1,64 @@
+@media (max-width: 900px) {
+    .film .film-block{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .collections .block{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media(max-width: 590px){
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    
+    header .menu nav ul a{
+        padding: 15px 10px;
+    }
+    
+    header .poster{
+        padding: 10px 0px;
+    }
+    
+    header .poster i{
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    
+    header .poster p{
+        font-size: 12px;
+    }
+    
+    header .text{
+        padding: 50px;
+    }
+    
+    header .text h1{
+        font-size: 40px;
+    }
+    
+    header .text p{
+        font-size: 15px;
+    }
+    
+    header .text .btn{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header .text .btn a{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+}
+
+
+@media (max-width: 450px) {
+    .film .film-block{
+        grid-template-columns: 1fr;
+    }
+}
